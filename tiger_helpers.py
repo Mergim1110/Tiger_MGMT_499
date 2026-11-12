@@ -61,7 +61,7 @@ from linearmodels.panel import PanelOLS
 
 # ---------- Data load ----------
 def load_data():
-    url = "https://raw.githubusercontent.com/Mergim1110/Tiger_MGMT_499/refs/heads/main/final_panel_with_green_indicator.csv"
+    url = "https://raw.githubusercontent.com/Mergim1110/Tiger_MGMT_499/refs/heads/main/data/final_panel.csv"
     df = pd.read_csv(url, sep=",")
     return df
 
